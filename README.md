@@ -29,5 +29,5 @@ And, you should replace the pth file you had just downloaded.
 
 # Install some dependecies using pip3
 ```bash
-pip3 install imageio torchvision
+pip3 install imageio torchvision imageio-ffmpeg
 ```
