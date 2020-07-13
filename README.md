@@ -1,6 +1,12 @@
 # Hardware
 Jetson nano
 
+# graphic driver install
+$ sudo apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub
+$ sudo sh -c 'echo "deb http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64 /" >> /etc/apt/sources.list.d/cuda.list'
+$ sudo sh -c 'echo "deb http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1604/x86_64 /" >> /etc/apt/sources.list.d/cuda.list'
+$ sudo apt-get update
+
 # Install torch
 download whl file here : https://drive.google.com/open?id=1h3nsVXskS8yQvLmhrL77m8mImusRy7OR
 
