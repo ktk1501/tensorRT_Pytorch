@@ -128,10 +128,12 @@ cd Downloads
 ```
 
 ### Install the .deb packages
+cudnn 7.6.5.32
 ```
-sudo dpkg -i libcudnn7_7.4.2.24-1+cuda10.0_amd64.deb
-sudo dpkg -i libcudnn7-dev_7.4.2.24-1+cuda10.0_amd64.deb 
-sudo dpkg -i libcudnn7-doc_7.4.2.24-1+cuda10.0_amd64.deb
+sudo dpkg -i libcudnn7_7.6.5.32-1+cuda10.0_amd64.deb
+sudo dpkg -i libcudnn7-dev_7.6.5.32-1+cuda10.0_amd64.deb 
+# this one is sample
+sudo dpkg -i libcudnn7-doc_7.4.2.24-1+cuda10.0_amd64.deb 
 ```
 
 ### Export CUDA path
