@@ -5,7 +5,11 @@ OS: Ubuntu 16.04 LTS
 CUDA: 10.0
 Python: 3.7
 
-# Install
+# Install (DO NOT USE ANACONDA!!!!!! STRONGLY RECOMMEND TO INSTALL ON YOUR LOCAL)
+## CUDA 10.0
+I was CUDA 9.0 .... so clean remove 9.0 and reinstall 10.0
+https://teddylee777.github.io/linux/CUDA-%EC%9D%B4%EC%A0%84%EB%B2%84%EC%A0%84-%EC%82%AD%EC%A0%9C%ED%9B%84-%EC%9E%AC%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0
+
 ## PyCUDA
 ```bash
 pip install 'pycuda>=2019.1.1' --user
@@ -53,3 +57,7 @@ cd TensorRT-${version}/graphsurgeon
 sudo pip3 install graphsurgeon-0.4.1-py2.py3-none-any.whl
 # __in my case (same reason as above)
  pip install graphsurgeon-0.4.1-py2.py3-none-any.whl --user
+ ```
+ 
+ ## fastest example to check
+ 
