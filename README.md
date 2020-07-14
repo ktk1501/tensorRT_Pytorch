@@ -74,3 +74,9 @@ sudo pip3 install graphsurgeon-0.4.1-py2.py3-none-any.whl
  python2 yolov3_to_onnx.py (only python2 is working. need install some packages)
  python onn_to_tensorrt.py 
  ```
+ 
+ ## if some unknown error saying no such lib**
+ ```bash
+ rm -r .cache/pip/
+ pip install --force-reinstall pycuda
+ ```
