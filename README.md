@@ -80,3 +80,8 @@ sudo pip3 install graphsurgeon-0.4.1-py2.py3-none-any.whl
  rm -r .cache/pip/
  pip install --force-reinstall pycuda
  ```
+
+## yolov3 tensorrt video inference
+will be update soon.
+I am trying to compare yolov3 video inference speed. 
+I will upload the code too.
