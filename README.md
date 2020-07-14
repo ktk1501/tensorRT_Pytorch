@@ -8,7 +8,7 @@ Python: 3.7
 # Install (DO NOT USE ANACONDA!!!!!! STRONGLY RECOMMEND TO INSTALL ON YOUR LOCAL)
 ## CUDA 10.0
 I was CUDA 9.0 .... so clean remove 9.0 and reinstall 10.0
-
+Go to [CUDA_install.md](CUDA_install.md)
 
 ## PyCUDA
 ```bash
