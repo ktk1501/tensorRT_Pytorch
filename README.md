@@ -8,7 +8,13 @@ Python: 3.7
 # Install (DO NOT USE ANACONDA!!!!!! STRONGLY RECOMMEND TO INSTALL ON YOUR LOCAL)
 ## CUDA 10.0
 I was CUDA 9.0 .... so clean remove 9.0 and reinstall 10.0
+
+clean uninstall
+
 https://teddylee777.github.io/linux/CUDA-%EC%9D%B4%EC%A0%84%EB%B2%84%EC%A0%84-%EC%82%AD%EC%A0%9C%ED%9B%84-%EC%9E%AC%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0
+
+install graphic driver 410 cuda10.0 and cudnn 7.4.2 
+https://gist.github.com/matheustguimaraes/43e0b65aa534db4df2918f835b9b361d
 
 ## PyCUDA
 ```bash
