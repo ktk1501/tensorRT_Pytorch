@@ -39,6 +39,8 @@ cd TensorRT-${version}/python
 sudo pip3 install tensorrt-*-cp3x-none-linux_x86_64.whl
 # __in my case (pip directly indicate python3 folder, and 'sudo pip' raise error in my env)__
 pip install tensorrt-7.0.0.11-cp37-none-linux_x86_64.whl --user
+
+sudo apt-get install python3-libnvinfer-dev
 ```
 
 ## install UFF packages
@@ -60,4 +62,8 @@ sudo pip3 install graphsurgeon-0.4.1-py2.py3-none-any.whl
  ```
  
  ## fastest example to check
- 
+ ```bash
+ cd TensorRT-**/samples/python/yolov3_onnx
+ python2 yolov3_to_onnx.py (only python2 is working. need install some packages)
+ python onn_to_tensorrt.py 
+ ```
