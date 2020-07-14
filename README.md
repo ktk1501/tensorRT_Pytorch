@@ -26,10 +26,14 @@ tar xzvf TensorRT-7.x.x.x ~~~
 ```
 
 ## Add Environment Variable
+add 'export .....' to  '~/.bashrc'. Of course, use any editor such as nano. Then, source it.
 ```bash
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:<다운로드경로/TensorRT_폴더이름/lib>
 # in my case
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/ktk/Desktop/TensorRT-7.0.0.11/lib
+
+# source it
+source ~/.bashrc
 ```
 ## install python packages
 ```bash
