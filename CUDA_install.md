@@ -9,7 +9,9 @@ Update package lists, download and install NVIDIA driver
 ```
 sudo apt-get update
 sudo add-apt-repository ppa:graphics-drivers/ppa
-sudo apt install nvidia-410
+# up to your env
+sudo apt install nvidia-450
+sudo apt-get install dkms nvidia-modprobe
 ```
 
 #### Reboot
