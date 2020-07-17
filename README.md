@@ -82,25 +82,5 @@ sudo pip3 install graphsurgeon-0.4.1-py2.py3-none-any.whl
  ```
 
 # yolov3 tensorrt video inference
-## yolov3_to_onnx
-I used official sample in TensorRT 7.0.0.11, 'TensorRt-7.0.0.11/samples/python/yolov3_onnx/yolov3_to_onnx.py'.
-Convert yolov3 darknet based model to onnx.
-
-## onnx_to_tensorrt
-Same as above, I used 'onnx_to_tensorrt.py' in the same folder. 
-convert onnx to trt model.
-
-## testing environment
-|GPU  | RTX 2080 Ti |
-|---|:---:|
-| CPU | Intel i7-8700 @ 3.20GHz |
-| CUDA | 10.0 |
-| CuDNN | 7.6.5.32|
-
-## Step 1 : default setting
-
-|  | gpu_runtime | max_workspace_size | FPS |
-|---|:---:|---:|---:|
-| Step 1 | 58 | 38 | 38 |
-
-
+Go to this repository !!!
+<https://github.com/ktk1501/tensorrt_yolov3_from_scratch>
